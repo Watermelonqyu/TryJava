@@ -10,8 +10,25 @@ public class StringManipulate {
 	 */
 	private String inputString;
 	
-	public void method1() {
-		
+	/**
+	 * @return
+	 */
+	public String getInputString() {
+		return inputString;
+	}
+
+	/**
+	 * @param inputString
+	 */
+	public void setInputString(String inputString) {
+		this.inputString = inputString;
+	}
+
+	/**
+	 * 
+	 */
+	public String method1() {
+		return inputString;
 	}
 	
 	
